@@ -1,0 +1,54 @@
+
+
+/* navbar CSS */
+
+.custom-navbar-bg {
+    background-color: darkslategray;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+}
+
+.nav-item {
+    color: white;
+}
+
+.navbar-brand p {
+    color: white;
+    background-color: lightblue;
+}
+
+.navbar-nav .nav-item a {
+    color: white;
+    margin: 10px;
+}
+
+/* Jumbotron CSS */
+
+  .heroBackground {
+    height: calc(100vh - 350px);
+    background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroBackground h1 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    color: black;
+    font-size: 2rem;
+    background-color: lightblue;
+
+  }
